@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(60, 164, 199);
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+input,
+button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #9c4040;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+#countdownDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#doneMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #008000;
+}
