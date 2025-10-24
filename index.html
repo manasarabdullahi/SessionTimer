@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width; initial-scale:1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>SessionTimer</title>
+
+</head>
+
+<body>
+    <h1>SessionTimer</h1>
+
+    <label>Session Name:</label><br>
+    <input id="sessionName"><br><br>
+
+    <label>Duration (minutes):</label><br>
+    <input id="sessionMinutes" type="number" placeholder="e.g. 90"><br><br>
+
+    <button id="startButton">Start Session</button>
+
+    <h2 id="countdown"></h2>
+    <h3 id="completedMessage"></h3>
+
+    <audio id="alarmSound" src="alarm.wav" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
